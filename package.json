@@ -1,6 +1,6 @@
 {
-  "name": "serverless-version-tracker",
-  "version": "1.0.1",
+  "name": "@allganize/serverless-version-tracker",
+  "version": "1.0.2",
   "description": "Simple serverless plugin for tracking deployed versions of code",
   "main": "index.js",
   "scripts": {
@@ -8,7 +8,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/danepowell/serverless-version-tracker.git"
+    "url": "git+https://github.com/allganize/serverless-version-tracker.git"
   },
   "keywords": [
     "serverless",
@@ -20,9 +20,9 @@
   "author": "Dane Powell <git@danepowell.com>",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/danepowell/serverless-version-tracker/issues"
+    "url": "https://github.com/allganize/serverless-version-tracker/issues"
   },
-  "homepage": "https://github.com/danepowell/serverless-version-tracker#readme",
+  "homepage": "https://github.com/allganize/serverless-version-tracker#readme",
   "devDependencies": {
     "eslint": "^5.13.0",
     "eslint-config-airbnb-base": "^13.1.0",
