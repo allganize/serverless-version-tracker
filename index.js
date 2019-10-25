@@ -42,7 +42,7 @@ class ServerlessPlugin {
       const regex = /([-\w]*):(\d*)$/;
       const name = arn.match(regex)[1];
       const version = arn.match(regex)[2];
-      const tag = `${name}-${version}`;
+      const tag = `${name}/v${version}`;
       this.serverless.cli.log(`Creating local git tag '${tag}'...`);
       const { stdout, stderr } = await exec(`git tag ${tag}`);
       if (stdout || stderr) {
